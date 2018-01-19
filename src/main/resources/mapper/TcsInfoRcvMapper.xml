@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.TcsInfoRcvMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.TcsInfoRcv">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="req_code" jdbcType="VARCHAR" property="reqCode" />
+    <result column="task_id" jdbcType="VARCHAR" property="taskId" />
+    <result column="task_type" jdbcType="VARCHAR" property="taskType" />
+    <result column="way_bill_no" jdbcType="VARCHAR" property="wayBillNo" />
+    <result column="weight" jdbcType="NUMERIC" property="weight" />
+    <result column="camer_ip" jdbcType="VARCHAR" property="camerIp" />
+    <result column="image_url" jdbcType="VARCHAR" property="imageUrl" />
+    <result column="switch_code" jdbcType="VARCHAR" property="switchCode" />
+    <result column="agv_no" jdbcType="VARCHAR" property="agvNo" />
+    <result column="req_msg" jdbcType="VARCHAR" property="reqMsg" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="msg_from" jdbcType="VARCHAR" property="msgFrom" />
+    <result column="run_time" jdbcType="INTEGER" property="runTime" />
+    <result column="ind_exp" jdbcType="INTEGER" property="indExp" />
+    <result column="exp_type" jdbcType="VARCHAR" property="expType" />
+    <result column="exp_detail" jdbcType="VARCHAR" property="expDetail" />
+    <result column="dst_x" jdbcType="NUMERIC" property="dstX" />
+    <result column="dst_y" jdbcType="NUMERIC" property="dstY" />
+    <result column="image_cut_url" jdbcType="VARCHAR" property="imageCutUrl" />
+    <result column="arrive_time" jdbcType="BIGINT" property="arriveTime" />
+    <result column="leave_time" jdbcType="BIGINT" property="leaveTime" />
+    <result column="stay_time" jdbcType="BIGINT" property="stayTime" />
+    <result column="turn_time" jdbcType="BIGINT" property="turnTime" />
+    <result column="transit_pack_id" jdbcType="VARCHAR" property="transitPackId" />
+    <result column="count" jdbcType="INTEGER" property="count" />
+    <result column="map_code" jdbcType="VARCHAR" property="mapCode" />
+  </resultMap>
+</mapper>
